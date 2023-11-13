@@ -1,4 +1,4 @@
-package String;
+package TwoPointers;
 
 public class isSubSequence2 {
 	
