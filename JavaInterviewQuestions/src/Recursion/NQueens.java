@@ -1,6 +1,7 @@
 package Recursion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class NQueens {
@@ -75,6 +76,7 @@ public class NQueens {
 		for(int row = 0;row < board.length;row++) {
 			if(isSafe(board,row,col)) {
 				board[row][col] = 'Q';
+//				System.out.println(Arrays.deepToString(board));
 				helper(allBoards, board, col+1);
 				board[row][col] = '.';
 			}

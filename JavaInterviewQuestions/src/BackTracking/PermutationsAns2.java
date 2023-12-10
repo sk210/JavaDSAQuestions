@@ -1,10 +1,10 @@
-package Recursion;
+package BackTracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class IntegerArrayPermutations2 {
+public class PermutationsAns2 {
 	
 	public static void backTrack(int start, int[] nums, List<List<Integer>> ans) {
         if (start == nums.length) {
