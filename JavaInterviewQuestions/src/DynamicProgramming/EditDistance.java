@@ -3,6 +3,8 @@ package DynamicProgramming;
 public class EditDistance {
 
 	public static int minDistance(String word1, String word2) {
+		if(word1.equals(word2))
+			return 0;
 		int m = word1.length();
 		int n = word2.length();
 		int[][] dp = new int[m+1][n+1];
