@@ -1,5 +1,7 @@
 package Operators;
 
+import java.util.Arrays;
+
 public class CountingBits {
 	
 	public static int countOnes(int n) {
@@ -23,7 +25,7 @@ public class CountingBits {
 	}
 
 	public static void main(String[] args) {
-
+		System.out.println(Arrays.toString(countBits(5)));
 	}
 
 }
