@@ -1,7 +1,4 @@
 /Array/
-/BackTracking/
-/BasicQuestions/
-/BinarySearch/
 /DynamicProgramming/
 /HashMap/
 /HashSet/
@@ -9,6 +6,7 @@
 /LinkedList/
 /Maths/
 /Operators/
+/Queue/
 /Recursion/
 /SlidingWindow/
 /Stack/
