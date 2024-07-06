@@ -1,7 +1,5 @@
 package LinkedList;
 
-import LinkedList.MaximumTwinSumofaLinkedList.ListNode;
-
 public class MergeInBetweenLinkedLists {
 
 	public static class ListNode {
