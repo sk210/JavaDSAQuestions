@@ -4,22 +4,23 @@ public class MaximumSubArray {
 
 	public static int maxSubArray(int[] nums) {
 		int maxValue = Integer.MIN_VALUE;
-		int cunrrentValue = 0;
-		for(int i = 0;i<nums.length;i++) {
-			cunrrentValue += nums[i];
-			if(cunrrentValue > maxValue) {
-				maxValue = cunrrentValue;
+		int currentValue = 0;
+
+		for (int num : nums) {
+			currentValue = currentValue + num;
+			if (currentValue > maxValue) {
+				maxValue = currentValue;
 			}
-			if(cunrrentValue < 0) {
-				cunrrentValue = 0;
+			if (currentValue < 0) {
+				currentValue = 0;
 			}
-			
 		}
+
 		return maxValue;
 	}
 
 	public static void main(String[] args) {
-		int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+		int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 		System.out.println(maxSubArray(nums));
 
 	}

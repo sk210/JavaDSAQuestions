@@ -1,5 +1,7 @@
 package Array;
 
+import java.io.FileInputStream;
+
 public class AverageWaitingTime {
 
 	public static double averageWaitingTime(int[][] customers) {

@@ -1,7 +1,5 @@
 package LinkedList;
 
-import LinkedList.RemoveDuplicatesfromSortedList2Ans2.ListNode;
-
 public class LinkedListCycle {
 
 	public static class ListNode {
